@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:weightSum="5"
+    android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/tvPlayerCurrentTime"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:text="0:00"
+        />
+
+    <Button
+        android:id="@+id/btnPlayerPrev"
+        android:layout_width="0dp"
+        android:layout_weight="1"        android:layout_height="wrap_content"
+        android:text="Prev"
+         />
+
+    <Button
+        android:id="@+id/btnPlayerPlay"
+        android:layout_width="0dp"
+        android:layout_weight="1"        android:layout_height="wrap_content"
+        android:text="Play"
+        />
+
+    <Button
+        android:id="@+id/btnPlayerNext"
+        android:layout_width="0dp"
+        android:layout_weight="1"        android:layout_height="wrap_content"
+        android:text="Next"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginEnd="16dp"
+        android:text="99:00" />
+
+</LinearLayout>
